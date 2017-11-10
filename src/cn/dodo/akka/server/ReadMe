@@ -1,0 +1,6 @@
+(2)
+2个进程之间通讯
+	
+	Server1 中， 有一个 myAkkaServerSys 的Server
+		表示服务注册Actor00，可以给Actor00
+		（自己可以发消息测试）

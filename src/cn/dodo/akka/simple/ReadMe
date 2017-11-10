@@ -1,0 +1,8 @@
+(1)
+简单的2个Actor用于接收消息
+
+Demo的Main函数中发送消息
+	sys.actorOf(Props[Actor1]);  表示服务注册Actor1，可以给Actor1
+	Actor1 接收消息， 通过context，Actor1给Actor2发送消息
+	
+也就是， 主程序和Actor通讯， Actor之间通讯
